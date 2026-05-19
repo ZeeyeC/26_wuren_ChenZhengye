@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.10)
+project(Test)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(OpenCV REQUIRED)
+
+
+add_subdirectory(common)
+add_subdirectory(modules)
+
+add_executable(test main.cpp)
+
+target_link_libraries(test PUBLIC
+    kalman
+    math
+    M1
+    M2
+    A1
+    A2
+    ${OpenCV_LIBS}
+)
