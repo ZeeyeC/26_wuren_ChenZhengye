@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found visualization_msgs: 5.3.7 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found fsd_common_msgs: 0.0.0 (/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/fsd_common_msgs/share/fsd_common_msgs/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/build/ros2_homework_advanced
+[ 50%] [32mBuilding CXX object CMakeFiles/map_visualizer_node.dir/src/map_visualizer_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable map_visualizer_node[0m
+[100%] Built target map_visualizer_node
+-- Install configuration: ""
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/lib/ros2_homework_advanced/map_visualizer_node
+-- Set non-toolchain portion of runtime path of "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/lib/ros2_homework_advanced/map_visualizer_node" to ""
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/launch
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/launch/ros2_homework_advanced.launch.py
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ament_index/resource_index/package_run_dependencies/ros2_homework_advanced
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ament_index/resource_index/parent_prefix_path/ros2_homework_advanced
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/environment/ament_prefix_path.sh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/environment/ament_prefix_path.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/environment/path.sh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/environment/path.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/local_setup.bash
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/local_setup.sh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/local_setup.zsh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/local_setup.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/package.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ament_index/resource_index/packages/ros2_homework_advanced
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/cmake/ros2_homework_advancedConfig.cmake
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/cmake/ros2_homework_advancedConfig-version.cmake
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/install/ros2_homework_advanced/share/ros2_homework_advanced/package.xml

@@ -1,0 +1,212 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "fsd_common_msgs/msg/YoloConeDetections",
+      "fields": [
+        {
+          "name": "header",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Header"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "image_header",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Header"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "cone_detections",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "fsd_common_msgs/msg/YoloCone"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "fsd_common_msgs/msg/YoloCone",
+        "fields": [
+          {
+            "name": "x",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Float32"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "y",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Float32"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "width",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Float32"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "height",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Float32"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "color",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/String"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "color_confidence",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Float32"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/Float32",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/Header",
+        "fields": [
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "frame_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/String",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "fsd_common_msgs/msg/YoloConeDetections",
+      "hash_string": "RIHS01_31dfa3e1547fc705c881d76362720beb8acbe6b300687e35b4ab7ddc39ddfd3a"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "fsd_common_msgs/msg/YoloCone",
+      "hash_string": "RIHS01_a43589e85b8134ca822e229494edef4a95097c812e1dd3f0aa90ff5d7afdc54b"
+    },
+    {
+      "type_name": "std_msgs/msg/Float32",
+      "hash_string": "RIHS01_7170d3d8f841f7be3172ce5f4f59f3a4d7f63b0447e8b33327601ad64d83d6e2"
+    },
+    {
+      "type_name": "std_msgs/msg/Header",
+      "hash_string": "RIHS01_f49fb3ae2cf070f793645ff749683ac6b06203e41c891e17701b1cb597ce6a01"
+    },
+    {
+      "type_name": "std_msgs/msg/String",
+      "hash_string": "RIHS01_df668c740482bbd48fb39d76a70dfd4bd59db1288021743503259e948f6b1a18"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3cf659aa3c691da982f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "fsd_common_msgs__py",
+					"jsonFile" : "directory-fsd_common_msgs__py-29a282c33d684d523b2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/build/fsd_common_msgs/fsd_common_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "fsd_common_msgs__rs",
+					"jsonFile" : "directory-fsd_common_msgs__rs-da9bfc93be82ab380bea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/build/fsd_common_msgs/fsd_common_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "fsd_common_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fsd_common_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fsd_common_msgs_egg-26761a342e91ce742e49.json",
+					"name" : "ament_cmake_python_build_fsd_common_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fsd_common_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fsd_common_msgs-6c2c504be9e6721dbfb0.json",
+					"name" : "ament_cmake_python_copy_fsd_common_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs-d9571cf8a65cfc082de4.json",
+					"name" : "fsd_common_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__cpp-0a9843bef95bb8af6859.json",
+					"name" : "fsd_common_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fsd_common_msgs__py::@54013eeb6d6591599717",
+					"jsonFile" : "target-fsd_common_msgs__py-426475d2b73cd162988b.json",
+					"name" : "fsd_common_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_generator_c-9d577b9c9d2a36755985.json",
+					"name" : "fsd_common_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_generator_py-b73862da0d9a6a8ea97c.json",
+					"name" : "fsd_common_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_generator_type_description-2ddceea3008c0dda4f37.json",
+					"name" : "fsd_common_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_typesupport_c-53d2240c8a0e2692d3d7.json",
+					"name" : "fsd_common_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_typesupport_cpp-b6655d5dee5986701e0c.json",
+					"name" : "fsd_common_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_typesupport_fastrtps_c-e8c469a9e5c03d096c52.json",
+					"name" : "fsd_common_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_typesupport_fastrtps_cpp-7c78cfee1a2bec086895.json",
+					"name" : "fsd_common_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_typesupport_introspection_c-c80acee2838a0beb738f.json",
+					"name" : "fsd_common_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs__rosidl_typesupport_introspection_cpp-d06b3dd805db8837a5a4.json",
+					"name" : "fsd_common_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fsd_common_msgs__rs::@a62ff52a81d4df95625c",
+					"jsonFile" : "target-fsd_common_msgs__rs-76e73ed186e1f99bc1cd.json",
+					"name" : "fsd_common_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs_s__rosidl_typesupport_c-e9e88582a13a0756ca33.json",
+					"name" : "fsd_common_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs_s__rosidl_typesupport_fastrtps_c-484831f391cda4951cd3.json",
+					"name" : "fsd_common_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs_s__rosidl_typesupport_introspection_c-b5bc043bf126197bb809.json",
+					"name" : "fsd_common_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsd_common_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsd_common_msgs_uninstall-b4bd5ba84b5ffd39a9b9.json",
+					"name" : "fsd_common_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9fc0a23c7a0e5d52366b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/build/fsd_common_msgs",
+		"source" : "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/src/fsd_common_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,115 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "fsd_common_msgs/msg/YoloCone",
+      "fields": [
+        {
+          "name": "x",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Float32"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "y",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Float32"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "width",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Float32"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "height",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Float32"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "color",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/String"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "color_confidence",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Float32"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "std_msgs/msg/Float32",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/String",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "fsd_common_msgs/msg/YoloCone",
+      "hash_string": "RIHS01_a43589e85b8134ca822e229494edef4a95097c812e1dd3f0aa90ff5d7afdc54b"
+    },
+    {
+      "type_name": "std_msgs/msg/Float32",
+      "hash_string": "RIHS01_7170d3d8f841f7be3172ce5f4f59f3a4d7f63b0447e8b33327601ad64d83d6e2"
+    },
+    {
+      "type_name": "std_msgs/msg/String",
+      "hash_string": "RIHS01_df668c740482bbd48fb39d76a70dfd4bd59db1288021743503259e948f6b1a18"
+    }
+  ]
+}
