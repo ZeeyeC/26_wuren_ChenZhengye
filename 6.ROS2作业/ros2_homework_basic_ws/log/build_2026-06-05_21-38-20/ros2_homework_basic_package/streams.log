@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/dev_ws/install/learning_urdf:/home/c/dev_ws/install/learning_topic:/home/c/dev_ws/install/learning_tf:/home/c/dev_ws/install/learning_service:/home/c/dev_ws/install/learning_qos:/home/c/dev_ws/install/learning_pkg_python:/home/c/dev_ws/install/learning_parameter:/home/c/dev_ws/install/learning_node:/home/c/dev_ws/install/learning_launch:/home/c/dev_ws/install/learning_action:/home/c/dev_ws/install/learning_gazebo_harmonic:/home/c/dev_ws/install/learning_gazebo:/home/c/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-2) \w [$?] $ __trae_PS1=\n(TraeAI-2) \w [$?] $ /usr/bin/cmake /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package -DCMAKE_INSTALL_PREFIX=/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.258s] -- The CXX compiler identification is GNU 13.3.0
+[0.279s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.395s] -- Detecting CXX compiler ABI info
+[0.492s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.500s] -- Detecting CXX compile features - done
+[0.516s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.808s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.880s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.899s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.070s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.208s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.323s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.361s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.472s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.474s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.474s] -- Configured cppcheck include dirs: 
+[1.474s] -- Configured cppcheck exclude dirs and/or files: 
+[1.475s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.475s] -- Configured cpplint exclude dirs and/or files: 
+[1.476s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.476s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.477s] -- Added test 'lint_cmake' to check CMake code style
+[1.478s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.480s] -- Added test 'uncrustify' to check C / C++ code style
+[1.480s] -- Configured uncrustify additional arguments: 
+[1.481s] -- Added test 'xmllint' to check XML markup files
+[1.483s] -- Configuring done (1.5s)
+[1.492s] -- Generating done (0.0s)
+[1.495s] -- Build files have been written to: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package
+[1.505s] Invoked command in '/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/dev_ws/install/learning_urdf:/home/c/dev_ws/install/learning_topic:/home/c/dev_ws/install/learning_tf:/home/c/dev_ws/install/learning_service:/home/c/dev_ws/install/learning_qos:/home/c/dev_ws/install/learning_pkg_python:/home/c/dev_ws/install/learning_parameter:/home/c/dev_ws/install/learning_node:/home/c/dev_ws/install/learning_launch:/home/c/dev_ws/install/learning_action:/home/c/dev_ws/install/learning_gazebo_harmonic:/home/c/dev_ws/install/learning_gazebo:/home/c/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-2) \w [$?] $ __trae_PS1=\n(TraeAI-2) \w [$?] $ /usr/bin/cmake /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package -DCMAKE_INSTALL_PREFIX=/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package
+[1.506s] Invoking command in '/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/dev_ws/install/learning_urdf:/home/c/dev_ws/install/learning_topic:/home/c/dev_ws/install/learning_tf:/home/c/dev_ws/install/learning_service:/home/c/dev_ws/install/learning_qos:/home/c/dev_ws/install/learning_pkg_python:/home/c/dev_ws/install/learning_parameter:/home/c/dev_ws/install/learning_node:/home/c/dev_ws/install/learning_launch:/home/c/dev_ws/install/learning_action:/home/c/dev_ws/install/learning_gazebo_harmonic:/home/c/dev_ws/install/learning_gazebo:/home/c/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-2) \w [$?] $ __trae_PS1=\n(TraeAI-2) \w [$?] $ /usr/bin/cmake --build /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package -- -j16 -l16
+[1.559s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_figure_eight.dir/src/turtle_figure_eight.cpp.o[0m
+[5.151s] [100%] [32m[1mLinking CXX executable turtle_figure_eight[0m
+[5.334s] [100%] Built target turtle_figure_eight
+[5.347s] Invoked command in '/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/dev_ws/install/learning_urdf:/home/c/dev_ws/install/learning_topic:/home/c/dev_ws/install/learning_tf:/home/c/dev_ws/install/learning_service:/home/c/dev_ws/install/learning_qos:/home/c/dev_ws/install/learning_pkg_python:/home/c/dev_ws/install/learning_parameter:/home/c/dev_ws/install/learning_node:/home/c/dev_ws/install/learning_launch:/home/c/dev_ws/install/learning_action:/home/c/dev_ws/install/learning_gazebo_harmonic:/home/c/dev_ws/install/learning_gazebo:/home/c/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-2) \w [$?] $ __trae_PS1=\n(TraeAI-2) \w [$?] $ /usr/bin/cmake --build /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package -- -j16 -l16
+[5.358s] Invoking command in '/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/dev_ws/install/learning_urdf:/home/c/dev_ws/install/learning_topic:/home/c/dev_ws/install/learning_tf:/home/c/dev_ws/install/learning_service:/home/c/dev_ws/install/learning_qos:/home/c/dev_ws/install/learning_pkg_python:/home/c/dev_ws/install/learning_parameter:/home/c/dev_ws/install/learning_node:/home/c/dev_ws/install/learning_launch:/home/c/dev_ws/install/learning_action:/home/c/dev_ws/install/learning_gazebo_harmonic:/home/c/dev_ws/install/learning_gazebo:/home/c/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-2) \w [$?] $ __trae_PS1=\n(TraeAI-2) \w [$?] $ /usr/bin/cmake --install /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package
+[5.366s] -- Install configuration: ""
+[5.366s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure_eight
+[5.367s] -- Set non-toolchain portion of runtime path of "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure_eight" to ""
+[5.367s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//launch
+[5.367s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//launch/turtle_figure_eight.launch.py
+[5.367s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//config
+[5.367s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//config/turtle_params.yaml
+[5.367s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package
+[5.367s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.sh
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.dsv
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.sh
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.dsv
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.bash
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.sh
+[5.368s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.zsh
+[5.369s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.dsv
+[5.369s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.dsv
+[5.369s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/packages/ros2_homework_basic_package
+[5.369s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig.cmake
+[5.369s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig-version.cmake
+[5.369s] -- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.xml
+[5.371s] Invoked command in '/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/dev_ws/install/learning_urdf:/home/c/dev_ws/install/learning_topic:/home/c/dev_ws/install/learning_tf:/home/c/dev_ws/install/learning_service:/home/c/dev_ws/install/learning_qos:/home/c/dev_ws/install/learning_pkg_python:/home/c/dev_ws/install/learning_parameter:/home/c/dev_ws/install/learning_node:/home/c/dev_ws/install/learning_launch:/home/c/dev_ws/install/learning_action:/home/c/dev_ws/install/learning_gazebo_harmonic:/home/c/dev_ws/install/learning_gazebo:/home/c/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-2) \w [$?] $ __trae_PS1=\n(TraeAI-2) \w [$?] $ /usr/bin/cmake --install /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package

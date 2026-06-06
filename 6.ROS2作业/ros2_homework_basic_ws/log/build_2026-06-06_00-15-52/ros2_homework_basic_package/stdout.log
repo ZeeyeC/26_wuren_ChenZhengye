@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/bazi.dir/src/bazi.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bazi[0m
+[100%] Built target bazi
+-- Install configuration: ""
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/bazi
+-- Set non-toolchain portion of runtime path of "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/bazi" to ""
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//launch
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//launch/turtle_figure_eight.launch.py
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//config
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package//config/turtle_params.yaml
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.sh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.sh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.bash
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.sh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.zsh
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.dsv
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/packages/ros2_homework_basic_package
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig.cmake
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig-version.cmake
+-- Installing: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.xml

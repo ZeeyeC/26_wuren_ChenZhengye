@@ -1,0 +1,25 @@
+# 8字形运动参数配置文件
+
+bazi:
+  ros__parameters:
+    # 运动参数
+    linear_speed: 1.5        # 线速度 (m/s) 
+    angular_speed_circle1: 1.0  # 第一个圆的角速度 (rad/s，顺时针)
+    angular_speed_circle2: -1.0 # 第二个圆的角速度 (rad/s，逆时针，负号表示反向)
+    
+    # 时间控制参数
+    circle_duration: 6.28     # 每个圆的持续时间 (秒) - 控制圆的大小
+    #这里时间选用了让圆完整旋转一周的时间
+    transition_duration: 0.0 # 两个圆之间的过渡时间 (秒) - 平滑转向
+    
+    # 发布参数
+    publish_rate: 50.0       # 发布消息的频率 (Hz)
+    
+    # 话题名称
+    cmd_vel_topic: "/turtle1/cmd_vel"  # 乌龟控制话题
+    
+    # 参数说明
+    # 线速度 v = 1.5 m/s
+    # 角速度 w1 = 1.0 rad/s, w2 = -1.0 rad/s
+    # 圆半径 r = v / |w| = 1.5 / 1.0 = 1.5 m
+    # 两个圆相切条件: 第二个圆从第一个圆的终点开始，方向相反
