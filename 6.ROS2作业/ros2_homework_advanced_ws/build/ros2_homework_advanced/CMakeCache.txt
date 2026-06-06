@@ -397,6 +397,15 @@ geometry_msgs_DIR:PATH=/opt/ros/jazzy/share/geometry_msgs/cmake
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/jazzy/share/libstatistics_collector/cmake
 
+//Value Computed by CMake
+map_visualizer_BINARY_DIR:STATIC=/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/build/ros2_homework_advanced
+
+//Value Computed by CMake
+map_visualizer_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+map_visualizer_SOURCE_DIR:STATIC=/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_advanced/ros2_homework_advanced_ws/src/ros2_homework_advanced
+
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/jazzy/share/nav_msgs/cmake
 

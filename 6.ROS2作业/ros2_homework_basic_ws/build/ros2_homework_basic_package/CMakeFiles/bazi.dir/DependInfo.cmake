@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package/src/bazi.cpp" "CMakeFiles/bazi.dir/src/bazi.cpp.o" "gcc" "CMakeFiles/bazi.dir/src/bazi.cpp.o.d"
+  "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package/src/bazi.cpp" "CMakeFiles/bazi.dir/src/bazi.cpp.o" "gcc" "CMakeFiles/bazi.dir/src/bazi.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

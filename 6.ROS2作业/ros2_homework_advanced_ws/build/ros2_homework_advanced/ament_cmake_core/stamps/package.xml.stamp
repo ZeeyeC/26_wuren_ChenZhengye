@@ -9,6 +9,7 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+# 添加的依赖
   <depend>rclcpp</depend>
   <depend>visualization_msgs</depend>
   <depend>fsd_common_msgs</depend>

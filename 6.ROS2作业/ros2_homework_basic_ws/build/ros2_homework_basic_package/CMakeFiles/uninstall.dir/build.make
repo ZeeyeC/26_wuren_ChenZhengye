@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package
+CMAKE_SOURCE_DIR = /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package
+CMAKE_BINARY_DIR = /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

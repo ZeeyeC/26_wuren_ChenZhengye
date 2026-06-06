@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff15ee83f95b62d91784.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_homework_basic_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bazi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bazi-6d4eb1fb0140deae23d2.json",
+					"name" : "bazi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_homework_basic_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_homework_basic_package_uninstall-cf98212b250354abf7c7.json",
+					"name" : "ros2_homework_basic_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f62e0d7404329c40b0af.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2\u4f5c\u4e1a/ros2_homework_basic_ws/build/ros2_homework_basic_package",
+		"source" : "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2\u4f5c\u4e1a/ros2_homework_basic_ws/src/ros2_homework_basic_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

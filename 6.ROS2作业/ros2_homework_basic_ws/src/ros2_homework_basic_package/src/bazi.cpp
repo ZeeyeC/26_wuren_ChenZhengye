@@ -22,7 +22,7 @@ class TurtleFigureEight : public rclcpp::Node
 {
 public:
         TurtleFigureEight()
-    : Node("bazi"), //节点名
+    : Node("bazi"), //节点名是bazi
       state_(MotionState::CIRCLE1), //初始状态是CIRCLE1
       state_start_time_(this->get_clock()->now()) //初始状态开始时间是当前时间
     {
@@ -37,10 +37,10 @@ public:
             rclcpp::QoS(10) //发布者QoS 10
                );
         
-        // 创建定时器 
+        // 创建定时器
         timer_ = this->create_wall_timer( 
-            std::chrono::milliseconds((int)(1000.0 / publish_rate_)), //每1000/publish_rate_毫秒发布一次
-            std::bind(&TurtleFigureEight::timer_callback, this) //绑定定时器回调函数
+            std::chrono::milliseconds((int)(1000.0 / publish_rate_)),
+            std::bind(&TurtleFigureEight::timer_callback, this)
         );
 
         //打印日志
@@ -208,13 +208,6 @@ int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv); // 初始化ros2节点 init是初始化函数 argc是命令行参数个数 argv是命令行参数数组
     rclcpp::spin(std::make_shared<TurtleFigureEight>()); // 启动ros2节点 spin是启动函数 参数std::make_shared<TurtleFigureEight>()是节点对象的智能指针
-    //这个spin内部是长这样的
-    /*while (rclcpp::ok()) {
-    // 检查定时器是否到期
-    // 检查是否有新消息
-    // 如果有事件，调用对应的回调函数
-    }*/
-   //不断在循环检查计时器的情况 如果有事件 就调用对应的回调函数 然后回调函数就检查这个阶段到时间没有 到了就更新状态
     rclcpp::shutdown(); // 关闭ros2节点 shutdown是关闭函数
     return 0;
 }

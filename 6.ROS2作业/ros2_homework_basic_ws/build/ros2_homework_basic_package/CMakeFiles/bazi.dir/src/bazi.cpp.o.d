@@ -1,5 +1,5 @@
 CMakeFiles/bazi.dir/src/bazi.cpp.o: \
- /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package/src/bazi.cpp \
+ /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package/src/bazi.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/chrono \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

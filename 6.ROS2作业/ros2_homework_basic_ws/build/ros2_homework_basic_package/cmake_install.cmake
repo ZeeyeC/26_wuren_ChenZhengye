@@ -1,8 +1,8 @@
-# Install script for directory: /home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package
+# Install script for directory: /home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/install/ros2_homework_basic_package")
+  set(CMAKE_INSTALL_PREFIX "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/install/ros2_homework_basic_package")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_homework_basic_package/bazi"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_homework_basic_package" TYPE EXECUTABLE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/bazi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_homework_basic_package" TYPE EXECUTABLE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/bazi")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_homework_basic_package/bazi" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_homework_basic_package/bazi")
     file(RPATH_CHANGE
@@ -63,22 +63,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/bazi.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/bazi.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package/" TYPE DIRECTORY FILES
-    "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package/launch"
-    "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package/config"
+    "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package/launch"
+    "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package/config"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,7 +86,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package/environment" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package/environment" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,42 +94,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package/environment" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package/environment" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_index/share/ament_index/resource_index/packages/ros2_homework_basic_package")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_index/share/ament_index/resource_index/packages/ros2_homework_basic_package")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package/cmake" TYPE FILE FILES
-    "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_core/ros2_homework_basic_packageConfig.cmake"
-    "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_core/ros2_homework_basic_packageConfig-version.cmake"
+    "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_core/ros2_homework_basic_packageConfig.cmake"
+    "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/ament_cmake_core/ros2_homework_basic_packageConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/src/ros2_homework_basic_package/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_homework_basic_package" TYPE FILE FILES "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/src/ros2_homework_basic_package/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -140,5 +140,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/c/Formax_wuren_shixi/ros2_learning-main/ros2_homework_basic_ws/build/ros2_homework_basic_package/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/c/Formax_wuren_shixi/26_wuren_ChenZhengye/6.ROS2作业/ros2_homework_basic_ws/build/ros2_homework_basic_package/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
